@@ -24,21 +24,9 @@
       width: 100%;
       transition: 0.5s;
     }
-    .boxes {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-    }
-    .imgler {
-      display: flex;
-      justify-content: center;
-    }
     .mobile {
-      background: linear-gradient(200deg, #46c578, #000000);
+      background: linear-gradient(200deg, #5E5E5E, #000000);
       color: white;
       z-index: 1111;
-    }
-    .colere {
-      margin-bottom: 20px;
     }
   }
