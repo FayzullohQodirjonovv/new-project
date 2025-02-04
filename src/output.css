@@ -616,6 +616,10 @@ video {
   margin: auto;
 }
 
+.mt-\[-50px\] {
+  margin-top: -50px;
+}
+
 .mt-\[80px\] {
   margin-top: 80px;
 }
@@ -684,14 +688,19 @@ video {
   border-radius: 60px;
 }
 
-.bg-\[red\] {
+.bg-\[wheat\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(245 222 179 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[whitesmoke\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[yellow\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-red-800 {
@@ -706,6 +715,10 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-5 {
@@ -804,6 +817,15 @@ video {
   line-height: 43.2px;
   padding: 30px;
   margin-bottom: 30px;
+}
+
+.btn-lovero button{
+  margin-top: 30px;
+  padding: 10px 70px;
+}
+
+.text{
+  z-index: 1111;
 }
 
 @media (max-width: 949px) {

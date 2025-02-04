@@ -74,7 +74,13 @@ line-height: 43.2px;
 padding: 30px;
 margin-bottom: 30px;
 }
-
+.btn-lovero button{
+  margin-top: 30px;
+  padding: 10px 70px;
+}
+.text{
+  z-index: 1111;
+}
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
     left: 0;
