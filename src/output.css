@@ -632,6 +632,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-\[100vh\] {
   height: 100vh;
 }
@@ -689,6 +693,11 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
+}
+
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
@@ -724,6 +733,10 @@ video {
   font-size: 20px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .text-red-950 {
   --tw-text-opacity: 1;
   color: rgb(69 10 10 / var(--tw-text-opacity, 1));
@@ -732,6 +745,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 .shadow-md {
@@ -785,205 +808,5 @@ video {
 
   .colere {
     margin-bottom: 20px;
-  }
-
-  .box_cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    place-items: center;
-    gap: 30px;
-  }
-
-  .texts {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .loremto {
-    display: block;
-  }
-
-  .lorem {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .forms {
-    margin-top: 20px;
-  }
-
-  .forms input {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .box__card1 {
-    display: none;
-  }
-
-  .sholt__boxes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-  }
-
-  .left {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .showcs {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    place-items: center;
-  }
-
-  .footer__bx {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .div {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .imgloper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .btn2 {
-    margin-top: 20px;
-  }
-
-  .btn2 button {
-    width: 100%;
-  }
-
-  .kiril__card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .loreel1 {
-    display: none;
-  }
-
-  .kiril1 {
-    display: none;
-  }
-
-  .loreel2 {
-    display: none;
-  }
-
-  .kiril2 {
-    display: none;
-  }
-
-  .loreel3 {
-    display: none;
-  }
-
-  .kiril3 {
-    display: none;
-  }
-
-  .hamburger {
-    height: 50px;
-    width: 50px;
-    transform: 0.2s;
-    position: relative;
-  }
-
-  .hamburger .checkbox {
-    position: absolute;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .line {
-    transition: 0.5s;
-    stroke-width: 6px;
-    stroke: black;
-  }
-
-  .lineTop {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 25;
-  }
-
-  .lineBottom {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 60;
-  }
-
-  .lineMid {
-    stroke-dasharray: 40 40;
-  }
-
-  .hamburger .checkbox:checked + svg .line {
-    stroke: crimson;
-  }
-
-  .hamburger .checkbox:checked + svg .lineTop {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotateZ(45deg) translate(-7px, -5px);
-  }
-
-  .hamburger .checkbox:checked + svg .lineMid {
-    stroke-dashoffset: 40;
-  }
-
-  .hamburger .checkbox:checked + svg .lineBottom {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotate(-45deg) translate(-5px, 5px);
-  }
-
-  .lists {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer__boles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navbar li {
-    margin-top: 20px;
-  }
-
-  .navbar span {
-    margin-top: 20px;
-  }
-
-  .navbar h3 {
-    margin-top: 20px;
-  }
-
-  .footer__boles div {
-    margin-top: 20px;
   }
 }
