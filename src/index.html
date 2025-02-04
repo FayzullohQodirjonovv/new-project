@@ -3,18 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
       <div class="container w-[90%] m-auto p-5">
         <div class="header__full flex justify-between items-center">
-          <div class="imglorem flex  items-center gap-3">
-            <img class="brek bg-yellow-300 flex p-[10px] rounded-[10px]" src="/img/Group (5).png" alt="" />
+          <div class="imglorem flex items-center gap-3">
+            <img
+              class="brek bg-yellow-300 flex p-[10px] rounded-[10px]"
+              src="/img/Group (5).png"
+              alt=""
+            />
             <div class="paragrp">
-                <img src="/img/Group (6).png" alt="" />
-              </div>
+              <img src="/img/Group (6).png" alt="" />
+            </div>
           </div>
           <div class="header__boxes flex gap-4">
             <div class="img">
@@ -25,8 +37,65 @@
             </div>
           </div>
         </div>
-        <div class="hadr__img">
-          
+      </div>
+      <div class="hadr__img flex">salom</div>
+      <div
+        class="mobile fixed top-0 -left-[-100%] h-[100vh] w-[100%] bg-color_oragne"
+      >
+        <div
+          class="flex items-center justify-center h-full flex-col text-center"
+        >
+          <div class="colere flex flex-col mb-10 gap-3 text-[18px]">
+            <a href="#">Kadirjonoff developer</a>
+          </div>
+          <div class="loree">
+            <a class="mb-[20px]" href="ozodbekyuldashev@gmail.com"
+              >ozodbekyuldashev@gmail.com</a
+            >
+            <div class="btn2 flex justify-center">
+              <button
+                id="openModal"
+                class="flex justify-center bg-blue-500 text-white px-4 py-2 rounded-md shadow-md"
+              >
+                <span class="circle1">X</span>
+                <span class="circle2">X</span>
+                <span class="circle3">X</span>
+                <span class="circle4">X</span>
+                <span class="circle5">X</span>
+                <span class="text ml-2">Submit</span>
+              </button>
+            </div>
+            <div class="form-container">
+              <div class="logo-container">Forgot Password</div>
+
+              <form class="form">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required=""
+                  />
+                </div>
+
+                <button class="form-submit-btn" type="submit">
+                  Send Email
+                </button>
+              </form>
+
+              <p class="signup-link">
+                Don't have an account?
+                <a href="#" class="signup-link link"> Sign up now</a>
+              </p>
+            </div>
+            <label for="checkbox"
+              ><i
+                class="fa-solid fa-x absolute right-[20px] top-[20px] text-[20px] text-red-950 cursor-pointer"
+              ></i
+            ></label>
+          </div>
         </div>
       </div>
     </header>
