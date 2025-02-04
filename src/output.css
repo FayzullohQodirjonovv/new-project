@@ -616,6 +616,10 @@ video {
   margin: auto;
 }
 
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
 .flex {
   display: flex;
 }
@@ -666,6 +670,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-\[10px\] {
@@ -797,4 +805,18 @@ video {
     height: 50vh;
     border-radius: 40px 40px 0px 0px;
   }
+
+  .hero__boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+@media (max-width: 649px) {
+  .hero__boxes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
+
