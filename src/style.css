@@ -6,3 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.brek{
+    padding: 10px 10px;
+}
+.hadr__img{
+    background:  url("/img/IH7wPsjwomc.png");
+}
