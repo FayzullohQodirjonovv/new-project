@@ -86,7 +86,9 @@ margin-bottom: 30px;
 }
 .text{
   height: 35vh;
-
+}
+.lorem{
+  margin-top: 50px;
 }
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
