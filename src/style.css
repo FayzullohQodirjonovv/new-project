@@ -21,12 +21,15 @@
 @media (max-width: 949px) {
     #checkbox:checked ~ .mobile {
       left: 0;
-      width: 100%;
+      width: 70%;
       transition: 0.5s;
     }
     .mobile {
       background: linear-gradient(200deg, #5E5E5E, #000000);
       color: white;
       z-index: 1111;
+    }
+    .paragrp{
+        display: none;
     }
   }

@@ -694,13 +694,8 @@ video {
   text-align: center;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-red-950 {
-  --tw-text-opacity: 1;
-  color: rgb(69 10 10 / var(--tw-text-opacity, 1));
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 * {
@@ -725,7 +720,7 @@ video {
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
     left: 0;
-    width: 100%;
+    width: 70%;
     transition: 0.5s;
   }
 
@@ -733,5 +728,9 @@ video {
     background: linear-gradient(200deg, #5E5E5E, #000000);
     color: white;
     z-index: 1111;
+  }
+
+  .paragrp{
+    display: none;
   }
 }
