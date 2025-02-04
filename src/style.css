@@ -53,14 +53,19 @@
   line-height: 13.75px;
   color: #828282;
 }
-.burton{
-    padding: 14px 30px;
+.burton {
+  padding: 14px 30px;
 }
-.btn{
-    margin-top: 40px;
+.btn {
+  margin-top: 40px;
 }
-.burton{
-    display: flex; justify-content: center;
+.burton {
+  display: flex;
+  justify-content: center;
+}
+.showcase__boxes img{
+  max-width: 294.67px;
+  height: 229.07px;
 }
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
@@ -76,24 +81,23 @@
   .paragrp {
     display: none;
   }
-  .btn{
+  .btn {
     display: none;
   }
-  .hadr__img{
+  .hadr__img {
     margin-top: 50px;
     height: 50vh;
     border-radius: 40px 40px 0px 0px;
   }
-  .hero__boxes{
+  .hero__boxes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 649px) {
-  .hero__boxes{
+  .hero__boxes {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
   }
 }
-
