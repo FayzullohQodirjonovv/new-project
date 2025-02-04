@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background-color: #F5F5F5;
+}
 * {
   padding: 0;
   margin: 0;
@@ -78,8 +82,11 @@ margin-bottom: 30px;
   margin-top: 30px;
   padding: 10px 70px;
 }
+.showcase__boxes img{
+}
 .text{
-  z-index: 1111;
+  height: 35vh;
+
 }
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
@@ -106,6 +113,16 @@ margin-bottom: 30px;
   .hero__boxes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .showcase__boxes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shovcase__item1 img{
+    display: none;
+  }
+  .shovcase__item2 img{
+    display: none;
   }
 }
 @media (max-width: 649px) {
