@@ -107,7 +107,18 @@ body {
   line-height: 43.2px;
   margin-bottom: 40px;
 }
-
+.select__h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+}
+.newosti{
+font-size: 36px;
+font-weight: 400;
+line-height: 43.2px;
+margin-bottom: 40px;
+}
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
     left: 0;
@@ -158,9 +169,8 @@ body {
     height: 475px;
     margin-top: 50px;
   }
-  .select__boxes {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  .hero__boxxes1{
+    display: none;
   }
   .lorem__boxes {
     display: grid;
@@ -169,4 +179,16 @@ body {
   }
 }
 @media (max-width: 649px) {
+  .select__1 {
+    width: 300px;
+  }
+  .select__h2{
+    text-align: center;
+  }
+  .select__hr{
+    width: 300px;
+  }
+  .select__box{
+    width: 300px;
+  }
 }
