@@ -757,6 +757,10 @@ video {
   padding: 10px;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -797,6 +801,7 @@ body {
 
 .hadr__img {
   background: url("/img/IH7wPsjwomc.png");
+  width: 10px;
   margin-top: -100px;
   background-position: center;
   background-repeat: no-repeat;
@@ -830,13 +835,12 @@ body {
 }
 
 .buttonlern {
-  padding: 4px 30px;
+  padding: 0px 0px;
   background-color: whitesmoke;
 }
 
 .buttonlern span {
   font-size: 11px;
-  font-weight: 400;
   line-height: 13.75px;
   color: #828282;
 }
@@ -867,10 +871,10 @@ body {
   margin-bottom: 30px;
 }
 
-.btn-lovero button {
+/* .btn-lovero button {
   margin-top: 30px;
   padding: 10px 70px;
-}
+} */
 
 .showcase__boxes img {
 }
@@ -950,6 +954,10 @@ body {
 
 .footer__boxes{
   padding: 30px;
+}
+
+.footer{
+  margin-top: 100px;
 }
 
 @media (max-width: 949px) {
