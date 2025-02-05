@@ -564,7 +564,7 @@ body {
   box-sizing: border-box;
 }
 
-.container{
+.container {
   width: 90%;
   margin: 0 auto;
   max-width: 1440px;
@@ -727,11 +727,11 @@ body {
   background-color: yellow;
 }
 
-.footer__boxes{
+.footer__boxes {
   padding: 30px;
 }
 
-.footer{
+.footer {
   margin-top: 100px;
 }
 
@@ -807,7 +807,7 @@ body {
     padding: 20px;
   }
 
-  .footer{
+  .footer {
     display: none;
   }
 }

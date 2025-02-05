@@ -10,7 +10,7 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+.container {
   width: 90%;
   margin: 0 auto;
   max-width: 1440px;
@@ -153,10 +153,10 @@ body {
   border-radius: 10px;
   background-color: yellow;
 }
-.footer__boxes{
+.footer__boxes {
   padding: 30px;
 }
-.footer{
+.footer {
   margin-top: 100px;
 }
 @media (max-width: 949px) {
@@ -217,8 +217,8 @@ body {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
   }
-  .footer{
-display: none;
+  .footer {
+    display: none;
   }
 }
 @media (max-width: 649px) {
