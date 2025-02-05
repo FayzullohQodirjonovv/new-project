@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color: #F5F5F5;
+body {
+  background-color: #f5f5f5;
 }
 * {
   padding: 0;
@@ -67,45 +67,47 @@ body{
   display: flex;
   justify-content: center;
 }
-.showcase__boxes img{
+.showcase__boxes img {
   max-width: 294.67px;
   height: 229.07px;
 }
-.h_two{
-font-size: 36px;
-font-weight: 400;
-line-height: 43.2px;
-padding: 30px;
-margin-bottom: 30px;
+.h_two {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  padding: 30px;
+  margin-bottom: 30px;
 }
-.btn-lovero button{
+.btn-lovero button {
   margin-top: 30px;
   padding: 10px 70px;
 }
-.showcase__boxes img{
+.showcase__boxes img {
 }
-.text{
+.text {
   height: 35vh;
 }
-.lorem{
+.lorem {
   margin-top: 50px;
 }
-.select__box{
+.select__box {
   width: 600px;
 }
-.select{
+.select {
   margin-top: 50px;
 }
-.select__h2{
-font-size: 36px;
-font-weight: 400;
-line-height: 43.2px;
-margin-bottom: 40px;
+.images111 {
+  width: 447px;
+  height: 475px;
+  margin-top: 50px;
 }
-.lorem__boxes{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+.select__h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 40px;
 }
+
 @media (max-width: 949px) {
   #checkbox:checked ~ .mobile {
     left: 0;
@@ -132,31 +134,39 @@ margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .showcase__boxes{
+  .showcase__boxes {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .shovcase__item1 img{
+  .shovcase__item1 img {
     display: none;
   }
-  .shovcase__item2 img{
+  .shovcase__item2 img {
     display: none;
   }
-  .select__boxes{
+  .select__boxes {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
   }
-  .select__box{
-    width: 290px;
+  .accordion-item {
+    width: 300px;
+    margin-left: -10px;
   }
-  .select{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+  .images111 {
+    width: 447px;
+    height: 475px;
+    margin-top: 50px;
+  }
+  .select__boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .lorem__boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
   }
 }
 @media (max-width: 649px) {
-
 }
