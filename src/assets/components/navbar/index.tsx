@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar_logo from "../../img/navbar_logo.svg";
 import Navbar_icom from "../../img/navbar_icom.svg";
-import Union from "../../img/union.svg";
+
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,7 +85,6 @@ const Navbar: React.FC = () => {
 
       {/* Center Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-        <img className="mb-[10px]" src={Union} alt="" />
         <i className="text-[#F9E68E] text-4xl mb-[20px] font-bold max-w-xl">
           Welcome to our restaurant
         </i>
